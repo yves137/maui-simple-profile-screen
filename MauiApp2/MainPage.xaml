@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            
+            <VerticalStackLayout >
+                <Image
+                    Source="person.svg"
+                    HeightRequest="185"
+                    Aspect="AspectFit"
+                    SemanticProperties.Description="person svg" />
+
+                <Label
+                    Text="Yves Kwizera"
+                    x:Name="ProfileName"
+                    Style="{StaticResource Headline}"
+                    SemanticProperties.HeadingLevel="Level1" />
+
+                <Label
+                    Text="Software Developer"
+                    Style="{StaticResource SubHeadline}"
+                    SemanticProperties.HeadingLevel="Level2"/>
+            </VerticalStackLayout>
+            
+            <VerticalStackLayout>
+                <Label Text="Professional Information" FontSize="20" FontAttributes="Bold" Padding="0,0,0,5"/>
+                <HorizontalStackLayout Padding="5,0">
+                    <Label Text="Email: " FontAttributes="Bold" FontSize="15"/>
+                    <Label Text="yves.kwizera@mail.com"/>
+                </HorizontalStackLayout>
+            
+                <HorizontalStackLayout Padding="5,0">
+                    <Label Text="Location: " FontAttributes="Bold" FontSize="15"/>
+                    <Label Text="Kigali, Rwanda"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+            
+           <VerticalStackLayout Spacing="10">
+               <Label Text="Update Your Name" FontSize="20" FontAttributes="Bold" Padding="0,0,0,10"/>
+               <Entry Text="" Placeholder="Enter your names ..." x:Name="UserNames"/>
+               <Button
+                   Text="Update" 
+                   Clicked="OnUpdateBtnClicked"
+                   HorizontalOptions="Fill" />
+           </VerticalStackLayout>
+            
+            
+            
+
+           
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,91 @@
+# ===== Build output (regenerated on every build) =====
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+[Pp]ublish/
+TestResults/
+*.binlog
+
+# ===== NuGet =====
+/packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ===== Visual Studio / Visual Studio for Mac =====
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+_ReSharper*/
+*.DotSettings.user
+
+# ===== JetBrains IDEs (Rider / IntelliJ) =====
+.idea/
+*.iml
+riderModule.iml
+/_ReSharper.Caches/
+
+# ===== VS Code =====
+.vscode/
+
+# ===== Secrets and local configuration =====
+# Never commit API keys, passwords or local settings.
+secrets.json
+appsettings.Development.json
+appsettings.*.local.json
+*.env
+.env
+.env.*
+local.properties
+
+# ===== Android signing and build files =====
+*.keystore
+*.jks
+*.apk
+*.aab
+*.dex
+google-services.json
+Android/*.ap_
+*.aar
+
+# ===== Apple signing and build files (iOS / Mac Catalyst) =====
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.cer
+*.certSigningRequest
+*.ipa
+*.app
+*.dSYM.zip
+*.dSYM
+
+# ===== Windows packaging =====
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+*.pfx
+AppPackages/
+BundleArtifacts/
+*.Publish.xml
+
+# ===== Logs and temp files =====
+*.log
+*.tmp
+*.swp
+*~
+
+# ===== OS-generated files =====
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
