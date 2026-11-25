@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lesson3Experiment_B.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20" x:Name="MainLayout">
+            <Label Text="Creating UI using XAML!" FontSize="24" x:Name="MessageLabel"/>
+            <Button Text="Add Another Label" Clicked="OnAddLabelClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="Lesson3Experiment-A/Lesson3Experiment-A.csproj" />
+  <Project Path="Lesson3Experiment-B/Lesson3Experiment-B.csproj" />
   <Project Path="MauiApp2/MauiApp2.csproj" />
 </Solution>
